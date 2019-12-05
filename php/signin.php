@@ -9,6 +9,7 @@
 </head>
 <body>
 <?php include 'navbar.php';?>
+<form class="form-horizontal" action="cadastro.php" method="POST">
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -18,12 +19,12 @@
             <form class="form-signin">
               <div class="form-label-group">
               	<label for="inputEmail">Email address</label>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
               </div>
 
               <div class="form-label-group">
               	<label for="inputPassword">Password</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="password" id="inputPassword" name="senha" class="form-control" placeholder="Password" required>
               </div>
 
               <div class="custom-control custom-checkbox mb-3">
@@ -37,5 +38,6 @@
         </div>
       </div>
     </div>
-  </div>
+  </div><form class="form-horizontal" action="cadastro.php" method="POST">
+</form>
 </body>
