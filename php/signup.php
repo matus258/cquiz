@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include 'navbar.php';?>
-<form class="form-horizontal">
+<form class="form-horizontal" action="cadastracliente.php" method="POST">
 <fieldset>
 <div class="panel panel-primary">
     <div class="panel-heading">Cadastro de Cliente</div>
@@ -79,7 +79,11 @@
   </div>
 </div>
 
-
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Senha">Senha <h11>*</h11></label>  
+  <div class="col-md-3">
+  <input id="senha" name="senha" placeholder="" class="form-control input-md" required="" type="password" >
+  </div>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
@@ -89,6 +93,7 @@
   </div>
 </div>
 
+</div>
 </div>
 </div>
 

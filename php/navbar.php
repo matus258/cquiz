@@ -18,7 +18,7 @@
         <a class="nav-link" href="video.php">Video</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="mapa-google.php">Mapa do Google</a>
+        <a class="nav-link" href="mapagoogle.php">Mapa do Google</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="entre-em-contato.php">Entre em contato</a>

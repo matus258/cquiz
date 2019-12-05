@@ -6,14 +6,14 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../images/teste.jpg" alt="Los Angeles" width="600" height="300">
+      <img src="../images/palestrante.jpg" alt="Los Angeles" width="600" height="300">
       <div class="carousel-caption">
         <h3>Los Angeles</h3>
         <p>We had such a great time in LA!</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="../images/palestrante.jpg" alt="Chicago" width="600" height="300">
+      <img src="../images/amigos.jpg" alt="Chicago" width="600" height="300">
       <div class="carousel-caption">
         <h3>Chicago</h3>
         <p>Thank you, Chicago!</p>
