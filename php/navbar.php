@@ -15,7 +15,7 @@
         <a class="nav-link" href="#">Criar quiz</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Buscar quiz</a>
+        <a class="nav-link" href="video.php">Video</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="mapa-google.php">Mapa do Google</a>
