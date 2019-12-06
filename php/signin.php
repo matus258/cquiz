@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php include 'navbar.php';?>
-<form class="form-horizontal" action="cadastro.php" method="POST">
+<form class="form-horizontal" action="checarlogin.php" method="POST">
   <div class="container">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
@@ -33,11 +33,10 @@
               </div>
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
               <hr class="my-4">
-            </form>
           </div>
         </div>
       </div>
     </div>
-  </div><form class="form-horizontal" action="cadastro.php" method="POST">
+  </div>
 </form>
 </body>
