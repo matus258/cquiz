@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php include 'navbar.php';?>
-<form class="form-horizontal" action="cadastro.php" method="POST">
+<form class="form-horizontal" action="dao/cadastro.php" method="POST">
 <fieldset>
 <div class="panel panel-primary">
     <div class="panel-heading">Cadastro de Cliente</div>

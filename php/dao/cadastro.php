@@ -1,12 +1,14 @@
 <?php
 
-$servername = "mysql.hostinger.co.uk";
-$database = "u266072517_name";
-$username = "u266072517_user";
-$password = "buystuffpwd";
+$servername = "127.0.0.1:8080";
+$database = "cquiz";
+$username = "root";
+$password = "usbw";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
+
+echo($nome.'-'.$email.'-'.$cpf.'-'.$dataNascimento.'-'.$sexo.'-'.$telefone.'-'.$senha);
 if (!$conn) {
       die("Erro na conexão: " . mysqli_connect_error());
 }
